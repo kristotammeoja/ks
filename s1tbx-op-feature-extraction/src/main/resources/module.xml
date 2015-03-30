@@ -152,6 +152,19 @@
             <targetProductNameSuffix>_cls</targetProductNameSuffix>
         </action-->
 
+        <action>
+            <id>MowingDetection</id>
+            <helpId>MowingDetection</helpId>
+            <class>org.esa.snap.dat.actions.OperatorAction</class>
+            <icon>esaIcon</icon>
+            <parent>PrimitiveFeatureGroup</parent>
+            <text>Mowing Detection</text>
+            <shortDescr>Grass Length Detection</shortDescr>
+            <operatorName>Mowing-Detection</operatorName>
+            <dialogTitle>Mowing Detection</dialogTitle>
+            <targetProductNameSuffix>_mow</targetProductNameSuffix>
+        </action>
+
         <!--action>
             <id>FloodDetection</id>
             <helpId>FloodDetection</helpId>
